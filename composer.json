@@ -1,0 +1,46 @@
+{
+  "name": "xandrkat/yii2-radmin",
+  "description": "RBAC Auth manager for Yii2 ",
+  "keywords": [
+    "yii",
+    "admin",
+    "auth",
+    "rbac"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/xandrkat/yii2-radmin/issues",
+    "source": "https://github.com/xandrkat/yii2-radmin"
+  },
+  "authors": [
+    {
+      "name": "Alexandr Katrazhenko",
+      "email": "katrazhenko@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": "=>2.0.7"
+  },
+  "require-dev": {
+    "yiisoft/yii2-codeception": "=>2.0"
+  },
+  "suggest": {
+    "yiisoft/yii2-bootstrap": "Used when using layout 'left-menu', 'right-menu' or 'top-menu'"
+  },
+  "autoload": {
+    "psr-4": {
+      "radmin\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.x-dev"
+    },
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
